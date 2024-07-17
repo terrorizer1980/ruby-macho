@@ -5,5 +5,5 @@ group :test do
   gem "codecov", require: false, group: :test
   gem "minitest"
   gem "rake"
-  gem "rubocop"
+  gem "rubocop", ">= 1.21.0"
 end
